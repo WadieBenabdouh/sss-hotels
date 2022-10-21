@@ -52,15 +52,23 @@ article{
         /* GRID */
 .hotels-grid{
     margin-top: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
 }
 .hotels-grid .crib img{
     max-width: 25em;
     border-radius: 20px;
 }
+.crib{
+    display: flex;
+    flex-direction: column;
+}
 .crib .label{
     display: flex;
     align-items: center;
     margin-top: 10px;
+    justify-content: space-between;
 }
 .crib .label > *{
     padding-inline: 10px;
@@ -71,7 +79,6 @@ article{
     border: 1px solid #000;
     border-radius: 10px;
     padding: 3px 10px;
-    font-weight: bold;
 }
 .label >:nth-child(2){
     font-size: 12px;
@@ -85,6 +92,15 @@ article{
     color: red;
 }
 .rating p{
-    color: var(--gray);
+    color: var(---gray);
     font-size: 13px;
+}
+/* second pic */
+.crib .label-second{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.rating{
+    display: flex;
 }
