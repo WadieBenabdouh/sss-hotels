@@ -67,14 +67,19 @@ article{
     justify-content: center;
     margin: 0 auto;
 }
-.crib .desc{
+/* .crib .desc{
     margin-top: 1em;
-}
+} */
 .crib .label{
     display: flex;
     align-items: center;
-    margin-top: 10px;
     justify-content: space-between;
+}
+.crib .details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
 }
 .crib .label > *{
     padding-inline: 10px;
@@ -89,6 +94,11 @@ article{
 .label >:nth-child(2){
     font-size: 12px;
     color: var(--light-gray);
+}
+
+.label, .label-second >:nth-child(1){
+    color: var(--light-gray);
+    font-size: 12px;
 }
 .label .rating{
     display: flex;
