@@ -57,12 +57,18 @@ article{
     gap: 2em;
 }
 .hotels-grid .crib img{
-    max-width: 25em;
+    max-width: 23em;
+    margin: 0 auto;
     border-radius: 20px;
 }
 .crib{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+.crib .desc{
+    margin-top: 1em;
 }
 .crib .label{
     display: flex;
