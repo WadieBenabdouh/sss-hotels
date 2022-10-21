@@ -21,6 +21,9 @@ main header{
     justify-content: space-between;
     align-items: center;
 }
+header h2 > *{
+    padding: 0 10px; /*NICE*/
+}
 .header-form{
     display: flex;
     box-shadow: 0px 1px 6px #0000001a;
@@ -80,6 +83,9 @@ article{
     flex-direction: column;
     margin-top: 10px;
     gap: 10px;
+}
+.details:nth-child(2){
+    font-weight: bold;
 }
 .crib .label > *{
     padding-inline: 10px;
