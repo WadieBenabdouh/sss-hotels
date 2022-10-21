@@ -39,3 +39,29 @@ main header{
 .fa-magnifying-glass{
     color: #FF0000;
 }
+
+        /*ARTICLE*/
+article{
+    margin-top: 5em;
+}
+.none-grid-title{
+    display: flex;
+    justify-content: space-between;
+}
+        /* GRID */
+.hotels-grid{
+    margin-top: 2em;
+}
+.hotels-grid .crib img{
+    max-width: 25em;
+    border-radius: 20px;
+}
+.crib .label{
+    display: flex;
+}
+.crib .label > *{
+    padding-inline: 10px;
+}
+.label .rating{
+    display: flex;
+}
