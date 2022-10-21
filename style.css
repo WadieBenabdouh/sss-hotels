@@ -31,6 +31,7 @@ main header{
     width: 7em;
     border: none;
     text-align: center;
+    opacity: 0.6;
 }
 .header-form > *{
     padding-inline: 5px;
@@ -58,10 +59,32 @@ article{
 }
 .crib .label{
     display: flex;
+    align-items: center;
+    margin-top: 10px;
 }
 .crib .label > *{
     padding-inline: 10px;
 }
+.label >:nth-child(1){  /*SUPER HOST*/
+    font-size: 12px;
+    color: var(--gray);
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 3px 10px;
+    font-weight: bold;
+}
+.label >:nth-child(2){
+    font-size: 12px;
+    color: var(--light-gray);
+}
 .label .rating{
     display: flex;
+    margin-left: 3em;
+}
+.rating i{
+    color: red;
+}
+.rating p{
+    color: var(--gray);
+    font-size: 13px;
 }
