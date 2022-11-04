@@ -73,12 +73,12 @@ article{
     display: flex;
     flex-direction: column;
     outline: red solid 1px;
-}.desc-adv > *{
-    margin: 5px 0; /*vertical spacing*/
+    gap: 10px;
 }
 .metadata-adv{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .metadata-adv .tag{
     border: 1px var(--gray) solid;
@@ -93,5 +93,18 @@ article{
 .card{
     display: flex;
     flex-direction: column;
+}
+.card .desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
     outline: green solid 1px;
+    gap: 10px;
+}
+.desc .metadata{
+    display: flex;
+    justify-content: space-between;
+    /* to align desc-adv with desc horizontaly */
+    padding: 2px;
 }
