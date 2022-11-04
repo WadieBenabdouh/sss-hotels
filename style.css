@@ -42,8 +42,14 @@ input[type=text]{
     cursor: pointer;
 }
 /* Grid-title */
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
 .grid-title{
     margin-top: 5em;
+    margin-bottom: 2em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,4 +58,9 @@ input[type=text]{
 .gallery{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+}
+.gallery .picture{
+    max-width: 24.8em;
+    border-radius: 20px;
 }
