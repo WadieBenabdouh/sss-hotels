@@ -64,3 +64,28 @@ article{
     max-width: 24.8em;
     border-radius: 20px;
 }
+/* CARD ADV */
+.card-advanced{
+    display: flex;
+    flex-direction: column;
+}
+.desc-adv{
+    display: flex;
+    flex-direction: column;
+    outline: red solid 1px;
+}.desc-adv > *{
+    margin: 5px 0; /*vertical spacing*/
+}
+.metadata-adv{
+    display: flex;
+    justify-content: space-between;
+}
+.metadata-adv .tag{
+    border: 1px var(--gray) solid;
+    border-radius: 10px;
+    padding: 2px;
+    
+}
+.rating{
+    display: flex;
+}
