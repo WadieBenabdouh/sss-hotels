@@ -89,3 +89,9 @@ article{
 .rating{
     display: flex;
 }
+/* CARD */
+.card{
+    display: flex;
+    flex-direction: column;
+    outline: green solid 1px;
+}
