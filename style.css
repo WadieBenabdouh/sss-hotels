@@ -185,4 +185,7 @@ article {
     .gallery {
         grid-template-columns: 1fr ;
     }
+    .gallery .picture{
+        max-width: 19.8em;
+    }
 }
