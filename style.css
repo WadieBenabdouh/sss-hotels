@@ -25,7 +25,8 @@ header {
     align-items: center;
     justify-content: space-between;
 }
-header img{
+
+header img {
     border: 2px dashed #f1a20e;
     padding: 1px 5px;
     border-radius: 10px;
