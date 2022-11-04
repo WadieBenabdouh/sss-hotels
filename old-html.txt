@@ -1,0 +1,279 @@
+<main>
+         <header>
+            <h2><img src="img/triangleLogo.png" alt="triangle header logo h1">S.S.S Hotels</h2>
+            <div class="header-form">
+               <p>Rabat, Morocco</p>
+               <label for="guests">
+                  <form action="">
+                     <input type="text" placeholder="Add guests">
+                  </form>
+               </label>
+               <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+         </header>
+         
+         <article>
+            <div class="none-grid-title">
+               <h3>Places in Rabat</h3>
+               <p style="color: #808080; font-weight: bold;">12+ Hotels</p>
+            </div>
+
+            <div class="hotels-grid">
+               <!-- grid is set above -->
+               <div class="crib house-one">
+                  <img src="img/house-one.jpg" alt="house-one">
+                  <div class="details">
+                     <div class="label">
+                        <p>SUPER HOST</p>
+                        <p>Entire apartment, 2 beds.</p>
+                        <div class="rating">
+                           <i class="fa-solid fa-star"></i>
+                           <p>4.40</p>
+                        </div>
+                     </div>
+                     <div class="desc">
+                        Stylist apartment in center of the city
+                     </div>
+                  </div>
+               </div>
+
+               <div class="crib house-two">
+                  <img src="img/house-two.jpg" alt="house-two">
+                  <div class="details">
+                     <div class="label-second">
+                        <p>Deep Sleep</p>
+                        <div class="rating">
+                           <i class="fa-solid fa-star"></i>
+                           <p>4.25</p>
+                        </div>
+                     </div>
+                     <div class="desc">
+                        Cozy, peaceful and private room with...
+                     </div>
+                  </div>
+               </div>
+
+               <div class="crib house-three">
+                  <img src="img/house-three.jpg" alt="house-three">
+                  <div class="details">
+                     <div class="label-second">
+                        <p>Cozy Room</p>
+                        <div class="rating">
+                           <i class="fa-solid fa-star"></i>
+                           <p>4.96</p>
+                        </div>
+                     </div>
+                     <div class="desc">
+                        Mordern House in a remote area
+                     </div>
+                  </div>
+               </div>
+
+               <div class="crib house-four">
+                  <img src="img/house-four.jpg" alt="house-four">
+                  <div class="details">
+                     <div class="label">
+                        <p>SUPER HOST</p>
+                        <p>Entire apartment, 2 beds.</p>
+                        <div class="rating">
+                           <i class="fa-solid fa-star"></i>
+                           <p>4.85</p>
+                        </div>
+                     </div>
+                     <div class="desc">
+                        Stylist room in design district
+                     </div>
+                  </div>
+               </div>
+
+               <div class="crib house-five">
+                  <img src="img/house-five.jpg" alt="house-five">
+                  <div class="details">
+                     <div class="label-second">
+                        <p>Luxurious House</p>
+                        <div class="rating">
+                           <i class="fa-solid fa-star"></i>
+                           <p>4.54</p>
+                        </div>
+                     </div>
+                     <div class="desc">
+                        Modern apartment close to nature
+                     </div>
+                  </div>
+               </div>
+               
+               <div class="crib house-six">
+                  <img src="img/house-six.jpg" alt="house-six">
+                  <div class="details">
+                     <div class="label-second">
+                        <p>Elegant Room</p>
+                        <div class="rating">
+                           <i class="fa-solid fa-star"></i>
+                           <p>4.64</p>
+                        </div>
+                     </div>
+                     <div class="desc">
+                        Enjoying life never been so easy, try it.
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </article>
+      </main>
+
+      CSS 
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* FONT END */
+:root {
+    --gray: #333333;
+    --light-gray: #828282;
+    --white: #000
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    padding: 2em 5em;
+}
+
+main header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2>* {
+    padding: 0 10px;
+    /*NICE*/
+}
+
+.header-form {
+    display: flex;
+    box-shadow: 0px 1px 6px #0000001a;
+    border-radius: 16px;
+    padding: 1em 2em;
+}
+
+.header-form>* {
+    padding-inline: 5px;
+}
+
+.header-form input[type=text] {
+    width: 7em;
+    border: none;
+    text-align: center;
+    opacity: 0.6;
+}
+
+/* header icon */
+.fa-magnifying-glass {
+    color: #FF0000;
+}
+
+/*ARTICLE*/
+article {
+    margin-top: 5em;
+}
+
+.none-grid-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* GRID */
+.hotels-grid {
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+}
+
+.hotels-grid .crib img {
+    max-width: 23em;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.crib {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.crib .details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.details:nth-child(2) {
+    font-weight: bold;
+}
+
+.crib .label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.crib .label>* {
+    padding-inline: 10px;
+}
+
+.label>:nth-child(1) {
+    /*SUPER HOST*/
+    font-size: 12px;
+    color: var(--gray);
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+
+.label>:nth-child(2) {
+    font-size: 12px;
+    color: var(--light-gray);
+}
+
+.label,
+.label-second>:nth-child(1) {
+    color: var(--light-gray);
+    font-size: 12px;
+}
+
+.label .rating {
+    display: flex;
+    margin-left: 3em;
+}
+
+.rating {
+    display: flex;
+}
+
+.rating i {
+    color: red;
+}
+
+.rating p {
+    color: var(---gray);
+    font-size: 13px;
+}
+
+.crib .label-second {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
