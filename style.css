@@ -48,3 +48,8 @@ input[type=text]{
     justify-content: space-between;
     align-items: center;
 }
+/* GALLERY */
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
