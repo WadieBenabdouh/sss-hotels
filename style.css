@@ -14,16 +14,19 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-main{
+
+main {
     padding: 2em 4em;
 }
+
 /* HEADER */
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.header-form{
+
+.header-form {
     display: flex;
     align-items: center;
     box-shadow: 0px 1px 6px #0000001a;
@@ -31,82 +34,118 @@ header{
     padding: 1em 2em;
     gap: 10px;
 }
-input[type=text]{
+
+input[type=text] {
     width: 8em;
     text-align: center;
     border: none;
     opacity: 0.6;
 }
-.fa-magnifying-glass{
+
+.fa-magnifying-glass {
     color: red;
     cursor: pointer;
 }
+
 /* Grid-title */
-article{
+article {
     display: flex;
     flex-direction: column;
     align-items: stretch;
 }
-.grid-title{
+
+.grid-title {
     margin-top: 5em;
     margin-bottom: 2em;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-/* GALLERY */
-.gallery{
+
+/* GALLERY general */
+.gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1em;
 }
-.gallery .picture{
+
+.gallery .picture {
     max-width: 24.8em;
     border-radius: 20px;
 }
+
+.rating i {
+    color: red;
+    margin-right: 5px;
+}
+
+.quote {
+    font-weight: bold;
+}
+
 /* CARD ADV */
-.card-advanced{
+.card-advanced {
     display: flex;
     flex-direction: column;
 }
-.desc-adv{
+
+.desc-adv {
     display: flex;
     flex-direction: column;
-    outline: red solid 1px;
+    /* outline: red solid 1px; */
     gap: 10px;
     margin-top: 1em;
 }
-.metadata-adv{
+
+.desc-adv .tag {
+    font-weight: bold;
+}
+
+.metadata-adv {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.metadata-adv .tag{
+
+.metadata-adv .tag {
     border: 1px var(--gray) solid;
     border-radius: 10px;
     padding: 2px;
-    
 }
-.rating{
+
+.metadata-adv :nth-child(2) {
+    color: var(--gray);
+    font-size: 13px;
+}
+
+.rating {
     display: flex;
 }
+
 /* CARD */
-.card{
+.card {
     display: flex;
     flex-direction: column;
 }
-.card .desc{
+
+.card .desc {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-grow: 1;
-    outline: green solid 1px;
+    /* outline: green solid 1px; */
     gap: 10px;
     margin-top: 1em;
 }
-.desc .metadata{
+
+.desc .metadata {
     display: flex;
     justify-content: space-between;
     /* to align desc-adv with desc horizontaly */
     padding: 2px;
+}
+
+.metadata p {
+    color: var(--gray);
+    font-size: 15px;
 }
