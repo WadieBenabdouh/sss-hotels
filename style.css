@@ -1,0 +1,50 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* FONT END */
+:root {
+    --gray: #333333;
+    --light-gray: #828282;
+    --white: #000
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+main{
+    padding: 2em 4em;
+}
+/* HEADER */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-form{
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1px 6px #0000001a;
+    border-radius: 16px;
+    padding: 1em 2em;
+    gap: 10px;
+}
+input[type=text]{
+    width: 8em;
+    text-align: center;
+    border: none;
+    opacity: 0.6;
+}
+.fa-magnifying-glass{
+    color: red;
+    cursor: pointer;
+}
+/* Grid-title */
+.grid-title{
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
