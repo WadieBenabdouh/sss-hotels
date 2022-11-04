@@ -47,6 +47,9 @@ input[type=text] {
     border: none;
     opacity: 0.6;
 }
+input[type=text]:focus{
+    accent-color: #d13809;
+}
 
 .fa-magnifying-glass {
     color: red;
