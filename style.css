@@ -162,6 +162,27 @@ article {
         /*RESPONSIVE AREA*/
 
 /* Mobile Layout */
-/* @media screen and (max-width){
-
-} */
+@media screen and (max-width:412px){
+   main{
+    padding: 2em;
+   }
+    /* HEADER */
+    header {
+        flex-direction: column;
+    }
+    header > *{
+        margin: 10px 0;
+    }
+    /* GRID TITLE */
+    article{
+        align-items: center;
+    }
+    .grid-title {
+        margin-top: 1em;
+        flex-direction: column;
+    }
+    /* GALLERY */
+    .gallery {
+        grid-template-columns: 1fr ;
+    }
+}
