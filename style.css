@@ -74,6 +74,7 @@ article{
     flex-direction: column;
     outline: red solid 1px;
     gap: 10px;
+    margin-top: 1em;
 }
 .metadata-adv{
     display: flex;
@@ -101,6 +102,7 @@ article{
     flex-grow: 1;
     outline: green solid 1px;
     gap: 10px;
+    margin-top: 1em;
 }
 .desc .metadata{
     display: flex;
