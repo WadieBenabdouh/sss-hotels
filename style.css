@@ -184,7 +184,8 @@ article {
     }
     /* GALLERY */
     .gallery {
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
+        gap: 3em;
     }
     .gallery .picture{
         max-width: 23em;
@@ -213,6 +214,7 @@ article {
      /* GALLERY */
      .gallery {
          grid-template-columns: 1fr;
+         gap: 2em;
      }
      .gallery .picture{
          max-width: 15em;
