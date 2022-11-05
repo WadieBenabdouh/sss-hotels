@@ -48,7 +48,8 @@ input[type=text] {
     border: none;
     opacity: 0.6;
 }
-input[type=text]:focus{
+
+input[type=text]:focus {
     accent-color: #d13809;
 }
 
@@ -161,11 +162,11 @@ article {
 }
 
 /* FOOTER */
-footer{
+footer {
     margin-top: 2em;
-    outline: green solid 1px;
 }
-.newsletter{
+
+.newsletter {
     display: flex;
     justify-content: space-around;
     background: url('img/patternpad.svg') no-repeat;
@@ -173,19 +174,23 @@ footer{
     height: 6em;
     align-items: center;
 }
-.newsletter h3{
+
+.newsletter h3 {
     color: #fff;
     width: 11em;
     text-align: center;
 }
-.newsletter form{
+
+.newsletter form {
     display: flex;
 }
-.newsletter form input[type=email]{
+
+.newsletter form input[type=email] {
     padding: 5px;
     border-radius: 10px;
 }
-form button{
+
+form button {
     padding: 5px;
     background-color: #f10e0e;
     border-radius: 10px;
@@ -193,109 +198,145 @@ form button{
     font-weight: bold;
     color: #fff;
 }
+
 /* footer wrapper */
-.footer-wrapper{
+.footer-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: 15em;
+    background-color: #bcb3af;
 }
-.contact{
+
+.contact {
     display: flex;
     flex-direction: column;
     align-self: flex-start;
     margin-left: 10px;
 }
-.contact > *{
+
+.contact>* {
     display: flex;
     gap: 10px;
     align-items: center;
     margin: 5px 0;
     font-size: 13px;
 }
+.social-media ul{
+    list-style-type: none;
+    display: flex;
+    gap: 5em;
+    padding: 10px 20px;
+    background-color: #e81f1f;
+    border-radius: 10px;
+}
+.social-media ul li a{
+    text-decoration: none;
+    color: #000;
+}
 
 
 
 
 
 
-        /*RESPONSIVE AREA*/
+/*RESPONSIVE AREA*/
 
 /* Mobile Layout A52 Only? */
-@media screen and (min-width:401px) and (max-width:768px){
-   
-    main{
-    padding: 2em;
+@media screen and (min-width:401px) and (max-width:768px) {
+
+    main {
+        padding: 2em;
     }
+
     /* HEADER */
     header {
         flex-direction: column;
     }
-    header > *{
+
+    header>* {
         margin: 10px 0;
     }
+
     /* GRID TITLE */
-    article{
+    article {
         align-items: center;
     }
+
     .grid-title {
         margin-top: 1em;
         flex-direction: column;
     }
+
     /* GALLERY */
     .gallery {
         grid-template-columns: 1fr;
         gap: 3em;
     }
-    .gallery .picture{
+
+    .gallery .picture {
         max-width: 23em;
     }
 }
 
-@media screen and (max-width:400px){
-    main{
-     padding: 2em;
+@media screen and (max-width:400px) {
+    main {
+        padding: 2em;
     }
-     /* HEADER */
-     header {
-         flex-direction: column;
-     }
-     header > *{
-         margin: 10px 0;
-     }
-     /* GRID TITLE */
-     article{
-         align-items: center;
-     }
-     .grid-title {
-         margin-top: 1em;
-         flex-direction: column;
-     }
-     /* GALLERY */
-     .gallery {
-         grid-template-columns: 1fr;
-         gap: 3em;
-     }
-     .gallery .picture{
-         max-width: 15em;
-     }
-     .card-advanced{
+
+    /* HEADER */
+    header {
+        flex-direction: column;
+    }
+
+    header>* {
+        margin: 10px 0;
+    }
+
+    /* GRID TITLE */
+    article {
         align-items: center;
-     }
-     .desc-adv{
+    }
+
+    .grid-title {
+        margin-top: 1em;
+        flex-direction: column;
+    }
+
+    /* GALLERY */
+    .gallery {
+        grid-template-columns: 1fr;
+        gap: 3em;
+    }
+
+    .gallery .picture {
+        max-width: 15em;
+    }
+
+    .card-advanced {
+        align-items: center;
+    }
+
+    .desc-adv {
         width: 15em;
-     }
-     .metadata-adv .tag{
+    }
+
+    .metadata-adv .tag {
         text-align: center;
         font-size: 9px;
-     }
-     .quote{
+    }
+
+    .quote {
         text-align: center;
-     }
-     /* regular card */
-     .card{
+    }
+
+    /* regular card */
+    .card {
         align-items: center;
-     }
-     .desc{
+    }
+
+    .desc {
         width: 15em;
-     }
- }
+    }
+}
