@@ -186,6 +186,6 @@ article {
         grid-template-columns: 1fr ;
     }
     .gallery .picture{
-        max-width: 20em;
+        max-width: 25em;
     }
 }
