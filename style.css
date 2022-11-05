@@ -159,6 +159,30 @@ article {
     font-size: 15px;
 }
 
+/* FOOTER */
+footer{
+    margin-top: 2em;
+    outline: green solid 1px;
+}
+.newsletter{
+    display: flex;
+    justify-content: space-around;
+    background: url('img/patternpad.svg') no-repeat;
+    background-size: cover;
+    height: 6em;
+    align-items: center;
+}
+.newsletter h3{
+    color: #fff;
+    width: 11em;
+    text-align: center;
+}
+
+
+
+
+
+
         /*RESPONSIVE AREA*/
 
 /* Mobile Layout A52 Only? */
