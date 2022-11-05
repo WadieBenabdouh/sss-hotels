@@ -280,6 +280,10 @@ form button {
         max-width: 23em;
     }
     /* footer */
+    .newsletter{
+        flex-direction: column;
+        height: 10em;
+    }
     .newsletter form label{
         display: flex;
         flex-direction: column;
@@ -291,8 +295,14 @@ form button {
         margin-top: 10px;
     }
     /* footwe wrapper */
+    .footer-wrapper{
+        height: 20em;
+    }
     .footer-wrapper h1{
-        margin-bottom: 1em;
+        white-space: nowrap;
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 2em;
     }
     .contact {
         align-self: center;
