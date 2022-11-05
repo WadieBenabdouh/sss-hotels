@@ -214,7 +214,7 @@ article {
      /* GALLERY */
      .gallery {
          grid-template-columns: 1fr;
-         gap: 2em;
+         gap: 3em;
      }
      .gallery .picture{
          max-width: 15em;
