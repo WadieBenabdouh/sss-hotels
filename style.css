@@ -177,6 +177,22 @@ footer{
     width: 11em;
     text-align: center;
 }
+.newsletter form{
+    display: flex;
+}
+.newsletter form input[type=email]{
+    padding: 5px;
+    border-radius: 10px;
+}
+form button{
+    padding: 5px;
+    background-color: #f1a20e;
+    border-radius: 10px;
+    outline: solid #000;
+    font-weight: bold;
+}
+/* footer wrapper */
+
 
 
 
