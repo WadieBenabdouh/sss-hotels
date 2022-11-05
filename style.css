@@ -162,7 +162,7 @@ article {
         /*RESPONSIVE AREA*/
 
 /* Mobile Layout A52 Only? */
-@media screen and (min-width:601px) and (max-width:768px){
+@media screen and (min-width:401px) and (max-width:768px){
    
     main{
     padding: 2em;
@@ -191,7 +191,7 @@ article {
     }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:400px){
     main{
      padding: 2em;
     }
