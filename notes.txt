@@ -1,5 +1,6 @@
 for A52 use this 
     @media screen and (min-width:401px) and (max-width:768px)
+    412px seems the exact viewport for A52
 
 for Galaxy Core Prime use this
     @media screen and (max-width:400px)
