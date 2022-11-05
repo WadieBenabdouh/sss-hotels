@@ -186,10 +186,11 @@ footer{
 }
 form button{
     padding: 5px;
-    background-color: #f1a20e;
+    background-color: #f10e0e;
     border-radius: 10px;
     outline: solid #000;
     font-weight: bold;
+    color: #fff;
 }
 /* footer wrapper */
 

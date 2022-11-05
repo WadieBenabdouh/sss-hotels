@@ -5,7 +5,7 @@ for Galaxy Core Prime use this
     @media screen and (max-width:400px)
 
     ICONS
-call us <i class="fa-solid fa-phone-office"></i>
+call us 
 
 visit us <i class="fa-solid fa-location-check"></i>
 
