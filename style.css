@@ -161,11 +161,12 @@ article {
 
         /*RESPONSIVE AREA*/
 
-/* Mobile Layout */
-@media screen and (max-width:768px){
-   main{
+/* Mobile Layout A52 Only? */
+@media screen and (min-width:435px) and (max-width:768px){
+   
+    main{
     padding: 2em;
-   }
+    }
     /* HEADER */
     header {
         flex-direction: column;
@@ -189,3 +190,51 @@ article {
         max-width: 23em;
     }
 }
+
+@media screen and (max-width:434px){
+    main{
+     padding: 2em;
+    }
+     /* HEADER */
+     header {
+         flex-direction: column;
+     }
+     header > *{
+         margin: 10px 0;
+     }
+     /* GRID TITLE */
+     article{
+         align-items: center;
+     }
+     .grid-title {
+         margin-top: 1em;
+         flex-direction: column;
+     }
+     /* GALLERY */
+     .gallery {
+         grid-template-columns: 1fr;
+     }
+     .gallery .picture{
+         max-width: 15em;
+     }
+     .card-advanced{
+        align-items: center;
+     }
+     .desc-adv{
+        width: 15em;
+     }
+     .metadata-adv .tag{
+        text-align: center;
+        font-size: 9px;
+     }
+     .quote{
+        text-align: center;
+     }
+     /* regular card */
+     .card{
+        align-items: center;
+     }
+     .desc{
+        width: 15em;
+     }
+ }
