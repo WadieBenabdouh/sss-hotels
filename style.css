@@ -162,7 +162,7 @@ article {
         /*RESPONSIVE AREA*/
 
 /* Mobile Layout */
-@media screen and (max-width:640px){
+@media screen and (max-width:720px){
    main{
     padding: 2em;
    }
@@ -186,6 +186,6 @@ article {
         grid-template-columns: 1fr ;
     }
     .gallery .picture{
-        max-width: 31em;
+        max-width: 35em;
     }
 }
